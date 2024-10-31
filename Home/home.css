@@ -1,0 +1,287 @@
+
+/* section 2 main1 content */
+
+.section1 .main1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0,0,0,0.75)),url(/gallery/home-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    color: var(--textcolor--);
+    padding-bottom: 20px;
+    position: relative;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 125px;
+}
+
+.section1 .main1 .main1-content h1 span{
+    color: var(--primarycolor--);
+    font-size: 2.8rem;
+}
+
+.section1 .main1 .main1-content{
+    margin-left: 20px;
+}
+
+.section1 .main1 .main1-content p{
+    font-size: 1.4rem;
+    color: var(--textcolor--);
+}
+
+
+
+.section1 .main1 .main1-content a button{
+    width: 150px;
+    height: 50px;
+    border: transparent;
+    margin-top: 20px;
+    background-color: var(--primarycolor--);
+    color: var(--textcolor--);
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-radius: 0px 0px 25px;
+    transition: 0.5s ease-in;
+    position: relative;
+}
+
+.section1 .main1 .main1-content button:hover{
+    background-color: var(--textcolor--);
+    color: var(--primarycolor--);
+}
+
+.section1 .main1 .main1-content a button i{
+    margin-left: 5px;
+}
+
+.section1 .main1 img{
+    border: 1px solid transparent;
+}
+/* section2 :services section */
+
+#service-pg{
+    padding-top: 30px;
+    margin-top: 125px;
+}
+
+.section2{
+    margin-top: 50px;
+}
+
+.section2 h2{
+    width: 375px;
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    position: relative;
+}
+
+/* services boxes */
+
+.section2 .services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.section2 .services .service-box{
+    width: 360px;
+    height: 240px;
+    border:1px solid var(--primarycolor--);
+    margin-top: 10px;
+    color: var(--secondarycolor--);
+    border-radius: 0px 0px 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 40px;
+    padding: 5px;
+    position: relative;
+}
+
+.section2 .services .service-box .box-content{
+    position: absolute;
+    border: 1px solid transparent;
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 0px 25px 0px;
+}
+
+
+.section2 .services .service-box .box-content h2{
+    color: var(--secondarycolor--);
+    padding-bottom: 10px;
+    font-weight: 500;
+    transition: 0.5s ease;
+}
+
+.section2 .services .service-box .box-content p{
+    width: 90%;
+    margin: auto;
+
+}
+
+
+.section2 .services .service-box .first .learn-more{
+    margin-top: 20px;
+}
+
+.section2 .services .service-box .third .learn-more {
+    margin-top: 20px;
+    transition: 0.5s ease;
+}
+
+.section2 .services .service-box .box-content .learn-more a{
+    color: var(--secondary--);
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    transition: 0.5s ease;
+}
+
+.section2 .services .service-box .box-content .learn-more a i {
+    color: var(--secondary--);
+    margin-left: 5px;
+}
+
+.section2 .services .service-box .box-content:hover :is(.color-change, a, i) {
+    color: var(--primarycolor--);
+}
+
+.section2 .services .service-box .box-content{
+    pointer-events: none;
+}
+
+/* We also offer */
+
+.section2 .sub-services{
+    margin-top: 30px;
+}
+
+.section2 .sub-services .sub-service-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.section2 .sub-services .sub-service-main .sub-service-box{
+    position: relative;
+    width: 350px;
+    height: 450px;
+    border: 1px solid transparent;
+    margin-right: 10px;
+    margin-top: 40px;
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.section2 .sub-services .sub-service-main .sub-service-box:hover :is(h3){
+    color: var(--primarycolor--);
+}
+
+.section2 .sub-services .sub-service-main .sub-service-box img{
+    width: 100%;
+}
+
+.section2 .sub-services .sub-service-main .sub-service-box .content h3{
+    letter-spacing: 1px;
+}
+
+.section2 .sub-services .sub-service-main .sub-service-box .content p{
+    letter-spacing: 1px;
+    line-height: 20px;
+    pointer-events: none;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+/* about3 */
+.about3{
+    background-color: rgb(235, 230, 230);
+    margin-top: 50px;
+    padding: 10px;
+    width: 100%;
+}
+
+.about3 #h3{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.about3 #p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: lighter;
+}
+
+.about3 .content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    
+}
+
+.about3 .content .content-box{
+    padding-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 40px;
+    width: 460px;
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+.about3 .content .content-box .head i{
+    font-size: 2.5rem;
+    margin-right: 20px;
+    color: var(--primarycolor--);
+}
+
+.about3 .content .content-box .txt h3{
+    margin-left: 50px;
+    font-size: 2rem;
+    font-weight: lighter;
+    color: var(--primarycolor--);
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.about3 .content .content-box .txt p{
+    font-size: 1.2rem;
+    text-align: start;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+/* about3 end */
+
+
+
+.logos{
+    margin-top: 10px;
+}
+
+.logos .logo-content{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logos .logo-content img{
+    width: 20%;
+} 
+
