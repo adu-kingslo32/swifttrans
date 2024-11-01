@@ -252,7 +252,7 @@ footer .copyright p{
     .back-to-top {
         position: fixed;
         bottom: 30px;
-        right: 18px;
+        right: 0px;
         display: inline-flex;
         align-items: center;
         justify-content: center;
