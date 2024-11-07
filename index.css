@@ -2,7 +2,7 @@
 /* section 2 main1 content */
 
 .section1 .main1{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0,0,0,0.75)),url(/gallery/home-bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0,0,0,0.75)),url(assets/home-bg.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -18,7 +18,8 @@
 
 .section1 .main1 .main1-content h1 span{
     color: var(--primarycolor--);
-    font-size: 2.8rem;
+    font-size: 3rem;
+    letter-spacing: -3px;
 }
 
 .section1 .main1 .main1-content{
@@ -28,6 +29,8 @@
 .section1 .main1 .main1-content p{
     font-size: 1.4rem;
     color: var(--textcolor--);
+    letter-spacing: 1px;
+    line-height: 25px;
 }
 
 
